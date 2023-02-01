@@ -1,0 +1,56 @@
+.hb-card{
+	width: 309px;
+	height: 170px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	margin: 10px;
+}
+
+.hb-card-bankname{
+	width: 260px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	text-align: right;
+	color: #CCCCCC;
+}
+
+.hb-card-bankacn{
+	margin-top:  50px;
+	width: 217px;
+	height: 30px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	text-align: center;
+	color: #EA5324;
+}
+
+.hb-card-serial{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.hb-card-hname{
+	width: auto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	text-align: left;
+	color: #CCCCCC;
+}
+
+.hb-card-logo{
+	width: 55px;
+height: 35px;
+
+}.hb-card-logo img{
+	width: 55px;
+height: 35px;
+}

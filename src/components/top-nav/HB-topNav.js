@@ -7,8 +7,10 @@ export default function HBtopNav() {
 	<div className='hb-topnav'>
 		<img src={navBtn}></img>
 		<span className='hb-title'>Home Banking</span>
-		<span className='hb-status'>status</span>
-		
+		<span className='hb-status'>
+			<p className='hb-status-avatar'>B</p>
+			<span className='hb-status-flag'></span>
+		</span>
 	</div>
   )
 }
