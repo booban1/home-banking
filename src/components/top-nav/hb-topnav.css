@@ -1,0 +1,18 @@
+.hb-topnav{
+	height: 35px;
+	width: 360px;
+	justify-content: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.hb-topnav img{
+	height: 23px;
+}
+
+.hb-title{
+	color: #D76846;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+}
