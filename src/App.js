@@ -1,12 +1,17 @@
 import './App.css';
 import HBcard from './components/card/HB-card';
 import HBinput from './components/hb-fom-input/HB-input';
+import NewComp from './components/NewComp';
 import HBtopNav from './components/top-nav/HB-topNav';
 
 function App() {
+
   return (
     <div className="App">
-      <div className='hb-container'>
+      <h1>Welcome</h1>
+      <NewComp></NewComp>
+
+      {/* <div className='hb-container'>
         <HBtopNav ></HBtopNav>
         <p className='hb-label'>Wallet</p>
         <HBcard></HBcard>
@@ -19,7 +24,8 @@ function App() {
         <button>
           Proceed <i class="fa-solid fa-arrow-right"></i>
         </button>
-      </div>
+      </div> */}
+
     </div>
   );
 }
