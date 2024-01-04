@@ -8,10 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome</h1>
-      <NewComp></NewComp>
-
-      {/* <div className='hb-container'>
+      <div className='hb-container'>
         <HBtopNav ></HBtopNav>
         <p className='hb-label'>Wallet</p>
         <HBcard></HBcard>
@@ -24,7 +21,7 @@ function App() {
         <button>
           Proceed <i class="fa-solid fa-arrow-right"></i>
         </button>
-      </div> */}
+      </div>
 
     </div>
   );
